@@ -1,2 +1,1 @@
-# goit-markup-hw-02
- 
+# repo_zadanie1 rozsezone o zad 2
