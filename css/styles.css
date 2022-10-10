@@ -1,0 +1,171 @@
+/*   test */
+body {
+  font-family: "Roboto";
+  color: #212121;
+}
+.maintitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44;
+}
+/*  navigacyjne style */
+
+.navweb {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.navstudio {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.agencja {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+.blacknavitem {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.blacknavitem:hover {
+  color: #2196f3;
+}
+.navlink {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+.navphone {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.butzamow {
+  width: 200px;
+  height: 50px;
+  /*color: #2196f3;*/
+}
+.butzamow:hover {
+  color: #2196f3;
+}
+.lititle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.litext {
+  font-family: "Roboto";
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.sectitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.teamname {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.teamworkname {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.pordesc1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+}
+.pordesc2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+.porbutton {
+  /* position: absolute;*/
+  width: 114px;
+  height: 38px;
+  /*left: 740px;*/
+  /*top: 174px;*/
+  /* background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;*/
+}
+.zubutton:hover :focus {
+  color: #2196f3;
+  /* /*zmiana koloru textu po najechaniu nie zmienia sie na bialy8 
+  text-decoration-color: #ffffff;*/
+}
+/* footter class klasy w stopce */
+
+.footeraddres {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footermail {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
