@@ -22,7 +22,7 @@ body {
 .top-bar {
   width: 1600px;
   height: 80px;
-  background: red;
+  color: var(--white-color);
   display: flex;
   flex-direction: row;
 }
@@ -119,6 +119,119 @@ body {
   cursor: pointer; */
 }
 
+.card {
+  width: 270px;
+  height: 101px;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  /* line-height: 1.1;
+  letter-spacing: 0.03em; */
+  text-transform: uppercase;
+  color: var(--headline-color);
+}
+.card-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.container {
+  width: 1170px;
+  height: 386px;
+  background-color: #2196f3;
+}
+
+.secondary-headline {
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--headline-color);
+}
+
+.team-member-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--headline-color);
+}
+.work-position {
+  /* .scope-of-work { */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--body-text-color);
+}
+
 .nobull {
   list-style-type: none;
+}
+
+.flex-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.container-two {
+  width: 1170px;
+  height: 101px;
+  background-color: chartreuse;
+}
+.flex-container-two {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container-three {
+  width: 1170px;
+  height: 386px;
+  background-color: darkslateblue;
+}
+
+.flex-container-three {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.container-four {
+  width: 1600px;
+  height: 648px;
+  background-color: brown;
+}
+
+.flex-container-four {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.container {
+  list-style-type: none;
+}
+.justyfi-class {
+  justify-items: center;
 }
