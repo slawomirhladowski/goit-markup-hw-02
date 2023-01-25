@@ -10,11 +10,12 @@
 }
 
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #212121;
   width: 1600px;
   height: 2349px;
   margin: 0;
+  /*ramka jeszcze*/
 }
 
 /* gorna waska listwa z nawigacja  */
@@ -25,6 +26,7 @@ body {
   color: var(--white-color);
   display: flex;
   flex-direction: row;
+  border: 1px solid #ececec;
 }
 
 .logotype {
@@ -173,10 +175,6 @@ body {
   color: var(--body-text-color);
 }
 
-.nobull {
-  list-style-type: none;
-}
-
 .flex-container {
   margin: 0;
   padding: 0;
@@ -215,10 +213,18 @@ body {
   list-style-type: none;
 }
 
+.our-team-card {
+  background: #ffffff;
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
 .container-four {
   width: 1600px;
   height: 648px;
-  background-color: brown;
+  background: #f5f4fa;
 }
 
 .flex-container-four {
@@ -229,9 +235,102 @@ body {
   justify-content: space-evenly;
   list-style-type: none;
 }
-.container {
+/* .container {
   list-style-type: none;
 }
 .justyfi-class {
   justify-items: center;
+} */
+
+/*    footer    */
+
+.container-five {
+  width: 1600px;
+  height: 252px;
+  background: #2f303a;
+  color: #ffffff;
+}
+
+.address-info {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+.contact-link-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.contact-link-footer:hover,
+.contact-link-footer:focus {
+  color: var(--brand-color);
+}
+
+.addres-footer {
+  list-style-type: none;
+}
+
+.nobull {
+  list-style-type: none;
+}
+
+/*              PORTFOLIO           */
+
+.container-portfolio {
+  width: 1170px;
+  height: 1360px;
+  background: #ffffff;
+}
+
+.flex-container-portfolio-one {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.flex-container-portfolio-two {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.portfolio-card-item {
+  width: 370px;
+  height: 404px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.project-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
 }
