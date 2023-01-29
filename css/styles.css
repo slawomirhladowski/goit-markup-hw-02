@@ -33,6 +33,7 @@ body {
   width: 1600px;
   height: 2349px;
   margin: 0;
+  background-color: var(--background-color);
   /*ramka jeszcze chyba*/
 }
 
@@ -214,7 +215,7 @@ body {
 .container-two {
   width: 1170px;
   height: 101px;
-  background-color: chartreuse;
+  background-color: var(--background-color);
 }
 .flex-container-two {
   justify-content: space-between;
@@ -228,7 +229,7 @@ body {
 .container-three {
   width: 1170px;
   height: 386px;
-  background-color: darkslateblue;
+  background-color: var(--background-color);
 }
 
 .flex-container-three {
