@@ -127,6 +127,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   color: #ffffff;
+  font-family: inherit;
   letter-spacing: 0.06em;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -158,16 +159,15 @@ body {
   margin: 0;
   font-size: 14px;
   font-weight: 700;
-  line-height: 16.41px;
-  /* line-height: 1.1;
-  letter-spacing: 0.03em; */
+  line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-text-color);
 }
 .card-text {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
   color: var(--ouwner-text-color);
